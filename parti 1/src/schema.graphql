@@ -1,0 +1,15 @@
+# sdl = longage de programation qui va avec Graphql (un logage déffinition de schema).
+
+# Dans le ce fichier on créer des schema où il va y avoir plen des types de schema. Le type le plus utilisé
+# c'est le "type l'objet"
+
+# Type Query nous permetre de gèrer tout les requettes qui qarrivent
+
+
+# hello est un requette créé (il s'appel hello ) et on veut qui nous renvoie une String.
+# mentenant mon schema.graphql est fonctionnelle : ici j'ai un objet de type Query et donc j'ai tout mes requette 
+# où j'ai une méthode hello. 
+
+type Query {
+    hello : String
+}

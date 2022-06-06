@@ -1,0 +1,17 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "graphpack",
+    "build": "graphpack build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphpack": "^1.0.9",
+    "nodemon": "^2.0.16"
+  }
+}

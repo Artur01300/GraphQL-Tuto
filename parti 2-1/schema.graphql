@@ -1,0 +1,18 @@
+# Création de Custom Types (User)
+
+# le poin d'exclamation (!) signifie que les paramètres sont oubligatois, il peuent pas être null ou non null (il faut que ça soit remplie par le user)
+type User {
+    id: ID!
+    name: String!
+    email: String!
+    age: Int
+}
+
+
+# Query
+    # [User!]! = si jamé le arrey est vide alors on veut pas, envoie une error 
+    
+type Query {
+    hello : String
+    users: [User!]!
+}
